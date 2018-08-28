@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Oncall",
+	"description": "This is a repository of oncall APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/oncall.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://oncall.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Oncall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oncall/master/_listings/victorops/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Oncall",
+	"include": [
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oncall/master/_listings/victorops/apis.yaml"
+		}
+	]
+}
